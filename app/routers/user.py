@@ -6,11 +6,11 @@ router = APIRouter(prefix='/user', tags=["user"])
 # а также следующие маршруты, с пустыми функциями:
     # get '/' с функцией all_users.
 @router.get("/")
-async def all_tasks():
+async def all_users():
     pass
 
 # get '/user_id' с функцией user_by_id.
-@router.get("/task_id")
+@router.get("/user_id")
 async def user_by_id():
     pass
 
